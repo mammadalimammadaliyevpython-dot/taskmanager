@@ -1,0 +1,7 @@
+Django>=5.2,<6
+djangorestframework
+djangorestframework-simplejwt
+drf-spectacular
+django-jazzmin
+whitenoise
+gunicorn

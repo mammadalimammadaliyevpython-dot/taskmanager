@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["taskmanager/*/migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "W"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["accounts", "core", "tasks", "taskmanager"]

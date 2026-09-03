@@ -1,0 +1,15 @@
+.git
+.github
+.venv
+**/__pycache__
+**/*.pyc
+taskmanager/data
+data
+*.sqlite3*
+*.zip
+.ruff_cache
+**/.coverage
+**/htmlcov
+scripts
+Makefile
+README.md

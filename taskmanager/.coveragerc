@@ -1,0 +1,14 @@
+[run]
+source = accounts, core, tasks, taskmanager
+branch = True
+omit =
+    */migrations/*
+    */tests/*
+    */tests.py
+    taskmanager/asgi.py
+    taskmanager/wsgi.py
+    manage.py
+
+[report]
+show_missing = True
+fail_under = 90

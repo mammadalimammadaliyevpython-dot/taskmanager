@@ -1,0 +1,13 @@
+# Local convenience only: `docker compose up --build`, then curl http://127.0.0.1:8000/health/
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - taskmanager-data:/data
+    environment:
+      TASKMANAGER_ALLOWED_HOSTS: "*"
+
+volumes:
+  taskmanager-data:
